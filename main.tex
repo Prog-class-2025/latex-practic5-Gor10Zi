@@ -6,11 +6,30 @@
 \usepackage{array}             % Пакет для покращеної роботи з таблицями
 
 \title{Практична робота: Математичні формули} 
-\author{Ваше прізвище ім'я}                          
+\author{Бондар Наталія}                          
 \date{\today}                                
 
 \begin{document} % Початок тексту документа
 
 \maketitle % Команда, яка фактично малює заголовок, автора та дату на сторінці
+\section*{Квадратне рівняння}
+\begin{equation}
+ax^2 + bx +c = 0,\qual a\neq 0
+\end{equation}
+\begin{table}[h]
+\centering
+\renewcommand{\arraystretch}{3}
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{$ax^2 + bx + c = 0, a \neq 0, b \neq 0, c \neq 0$}\\ \hline
+\multicolumn{3}{|c|}{$D = b^2 - 4ac$}\\ \hline
+$\begin{aligned}
+    x_1 &= \fract{-b + \sqrt{D}}{2a} \\
+    x_2 &= \fract{-b - \sqrt{D}}{2a}
+\end{aligned}$ &
+$x = -\dfrac{b}{2a}$ &
 
+
+\end{tabular}
+\end{table}
 \end{document} % Кінець документа
