@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.20)  2 APR 2026 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.20)  2 APR 2026 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,8 +416,8 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ! Undefined control sequence.
-l.17 ax^2 + bx +c = 0,\qual
-                            a\neq 0
+l.17 ax^2 + bx +c = 0, \qual
+                             a \neq 0
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -442,34 +442,31 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[1
+)
+Runaway argument?
+ a &= 2, \quad b = -4, \quad c = -6\\ D &= (-4)^2 - 4 \cdot 2 \cdot (\ETC.
+! File ended while scanning use of \align*.
+<inserted text> 
+                \par 
+<*> ./main.tex
+              
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-{C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
- ***********
- ) 
+! Emergency stop.
+<*> ./main.tex
+              
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 3883 strings out of 467871
- 60156 string characters out of 5419828
- 460902 words of memory out of 5000000
- 32757 multiletter control sequences out of 15000+600000
+ 3875 strings out of 467871
+ 59982 string characters out of 5419828
+ 458902 words of memory out of 5000000
+ 32753 multiletter control sequences out of 15000+600000
  639006 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,65p,316b,361s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.
-pk> <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728
-.pk> <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm144
-0.pk> <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm20
-74.pk><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 60024 bytes).
-PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!
